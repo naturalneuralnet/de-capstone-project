@@ -20,8 +20,8 @@ I chose a UFO sighting dataset as I've always been intrigued by reports. The dat
 - Clone or download the project from this Github
 - Create and activate a Python virtual environment
 - Install project dependencies from the requirements.txt
-- To deploy the streamlit project locally use the 'streamlit run main.py' command.
-- To run the tests use 'python -m unittest test_file_name.py'
+- To deploy the streamlit project locally use the 'streamlit run app/main.py' command.
+- To run the tests use 'pytest app/tests/test-main.py' command inside the app folder.
 
 
 ## Process

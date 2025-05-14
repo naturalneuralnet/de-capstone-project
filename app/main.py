@@ -11,3 +11,7 @@ def main():
     )
 
     st.title("UFO Sightings Dashboard")
+
+
+if __name__ == "__main__":
+    main()

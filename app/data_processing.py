@@ -1,10 +1,8 @@
 import pandas as pd
-import streamlit as st
 
 
 def load_data(filepath):
     df = pd.read_csv(filepath, engine='python')
-
     return df
 
 

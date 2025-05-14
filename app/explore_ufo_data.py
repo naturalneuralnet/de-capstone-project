@@ -6,11 +6,11 @@ import plotly.express as px
 
 df = pd.read_csv("data/raw/UFO_sightings_raw.csv")
 st.title("UFO Sightings")
-# buffer = io.StringIO()
-# df.info(buf=buffer)
-# s = buffer.getvalue()
-# st.text(s)
-# st.write(s)
+buffer = io.StringIO()
+df.info(buf=buffer)
+s = buffer.getvalue()
+
+st.write(s)
 st.write(df.head())
 
 

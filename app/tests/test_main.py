@@ -41,3 +41,7 @@ def test_load_clean_and_export_data(setup_mocks):
         "data/raw/UFO_sightings_raw.csv",
         "data/clean/UFO_sightings_clean.csv"
     )
+
+
+def test_apply_filters(setup_mocks):
+    main.main()

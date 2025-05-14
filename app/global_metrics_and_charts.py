@@ -14,7 +14,7 @@ def display_key_insights():
         " 👽 The shape of the majority of sightings in the US is no shape at all, "
         "the next highest shape reported is triangle.")
     st.write(" 👽 Your best chance of seeing a UFO for yourself "
-             "is in California - Seattle in July at 9pm.")
+             "is in the state of California or the city of Seattle in July at 9pm.")
 
 
 def create_state_filter(filtered_df):

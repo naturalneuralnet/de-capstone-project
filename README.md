@@ -8,11 +8,11 @@ I chose a UFO sighting dataset as I've always been intrigued by reports. The dat
 
 ### User Stories
 
-- [ ] I want to load the data from the source so I can clean, transform and visualise it to generate insights.
-- [ ] I want to clean the data by removing nulls, standardising formats and dropping unnecessary columns using pandas so I can have a clean dataset to work with.
-- [ ] I want to enrich the dataset by transforming the data into new information using aggregation, summarisation and feature generation so I can have an interesting dataset to generate insights from. 
+- [x] I want to load the data from the source so I can clean, transform and visualise it to generate insights.
+- [x] I want to clean the data by removing nulls, standardising formats and dropping unnecessary columns using pandas so I can have a clean dataset to work with.
+- [x] I want to enrich the dataset by transforming the data into new information using aggregation, summarisation and feature generation so I can have an interesting dataset to generate insights from. 
 - [ ] I want to load the enriched dataset into streamlit so I can create filters and visualisations such as bar charts and scatter plots in order to discover insights to share.
-- [ ] I want to write unit tests for major functions that load, clean and transform the data so I can ensure my code is functional and consistent.
+- [x] I want to write unit tests for major functions that load, clean and transform the data so I can ensure my code is functional and consistent.
 
 
 ## Local Setup and Usage

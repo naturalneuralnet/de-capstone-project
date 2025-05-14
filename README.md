@@ -28,9 +28,16 @@ I chose a UFO sighting dataset as I've always been intrigued by reports. The dat
 
 ### Setup
 
+I began developing the project by creating this repository and pushing a basic streamlit application to it. The structure separates the data, the application code and the tests for readability and efficiency. I installed the project dependencies and created a requirements.txt file.
 
 
-### Loading, Cleaning and Transforming the Data
+### Extracting, Exploring and Transforming the Data
+
+I created a new branch 'extract-and-transform' to work on the extraction, data cleaning and data transformation user stories. I downloaded the dataset from Kaggle and unzipped it into the data/raw folder. I renamed the file to 'UFO_sightings.csv"
+
+I then created a python for exploratory data analysis and used streamlit to print the dataframe so I could see the results. This helped me identify the transformations I would need to make such as which columns needed nulls removed, and what features I could create from the dataset. 
+
+I created a python file for processing, cleaning and transforming the data. In the end the the enriched and cleaned dataset is exported to a new csv file in data/clean called "UFO_sightings_clean.csv"
 
 ### Filtering the data
 

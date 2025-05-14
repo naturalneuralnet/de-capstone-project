@@ -80,7 +80,7 @@ def create_sightings_over_time_vis(filtered_df):
         x='year',
         y='datetime',
         title='Sightings over time',
-        color_continuous_scale='hot_r',
+        color_continuous_scale='YlOrRd',
         labels={
             'year': 'Year',
             'datetime': 'Sightings'
@@ -125,7 +125,7 @@ def create_top_decades_for_sightings(filtered_df):
         y="datetime",
         title="Sightings by decade",
         color='year',
-        color_continuous_scale='hot_r',
+        color_continuous_scale='YlOrRd',
         labels={
             'year': 'Year',
             'datetime': 'Sightings'
@@ -180,7 +180,7 @@ def display_us_vis(filtered_df):
     fig2 = create_sightings_over_time_vis(filtered_df)
     fig2.update_layout(
         title_font=dict(size=24,),
-        title_y=0.83,  # Title positioned near the top vertically
+        title_y=0.83,
     )
     st.plotly_chart(fig2)
 
